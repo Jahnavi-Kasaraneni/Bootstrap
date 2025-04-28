@@ -1,0 +1,128 @@
+
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg{
+    background-image: linear-gradient(rgba(4, 11, 0, 0.5),rgba(4, 11, 0, 0.5)),url(img/work.jpg);
+    background-size: cover;
+    height:700px;
+    background-attachment: fixed;
+}
+.bg h1{
+    font-size: 66px;
+    padding-top: 100px;
+}
+.bg h1 span{
+    color:rgb(7, 241, 7);
+}
+.bg p{
+    font-size: 20px;
+}
+.button1{
+    margin:25px;
+    height: 50px;
+    width:185px;
+}
+.button1 a{
+    box-shadow: 9px 7px 1px green;
+    border:2px solid green;
+    padding: 5px 30px;
+    font-size:20px;
+}
+.button1 a:hover{
+    box-shadow: 0px 0px 0px ;
+}
+.heightcheck img{
+    height: 420px;
+    width:454px;
+}
+.fonts h4{
+    font-size: 35px;
+    font-weight: 100;
+}
+.fonts h1{
+    font-size: 60px;
+}
+.font1 h3{
+    font-weight:100;
+}
+.bg3{
+    background-color:rgb(66, 66, 66);
+    padding-bottom: 30px;
+}
+.bg4{
+    background-color: black;
+    padding-bottom: 30px;
+}
+.imgcheck img{
+    height:370px;
+}
+.bg5{
+    background-color: black;
+    padding-bottom: 30px;
+}
+.bg6{
+    background-color: black;
+    padding-bottom: 30px;
+}
+.bg7{
+    background-color:rgb(66, 66, 66);
+}
+.bird img{
+    height:100px;
+    width:128px;
+}
+.s4 button{
+    height:49px;
+    width:130px;
+    background-color: #1c262f;
+    border:2px solid green;
+}
+.s4 a{
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+}
+.s4 button:hover{
+    background-color: green;
+}
+
+.navbar-scroll {
+    background-color: gray;
+}
+.bg8{
+    background-color: black;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 0rem;
+}
+
+
+@media only screen and (min-width:300px) and (max-width:467px)
+{
+    .heightcheck img{
+        height:350px;
+        width:310px;
+    }
+    .imgcheck img {
+        height: 190px;
+    }
+    .bird img {
+        height: 79px;
+        width: 92px;
+    }
+    .bg{
+        height: 880px;
+    }
+    .s4{
+        padding-top: 20px;
+    }
+    .bg h1 {
+        font-size: 55px;
+    }
+    .fonts h1 {
+        font-size: 43px;
+    }
+    
+}
